@@ -13,5 +13,5 @@
 
 import task_12
 
-FRAC_DEL_EQUAL = task_12.DECVAL == task_12.FRACVAL
+FRAC_DEC_EQUAL = task_12.DECVAL == task_12.FRACVAL
 DEC_FLOAT_INEQUAL = task_12.DECVAL != task_12.FLOATVAL
