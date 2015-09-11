@@ -5,3 +5,7 @@
 import task_06
 
 WORDS = task_06.WORDS
+
+GRANARIES_EXIST = 'grai' in task_06.WORDS 
+
+print GRANARIES_EXIST
