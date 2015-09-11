@@ -11,3 +11,7 @@ FHANDLER = open(os.path.join(DPATH, 'war_and_peace.txt'), 'r')
 WORDS = FHANDLER.read()
 
 FHANDLER.close()
+
+TEST = len(WORDS.split())
+
+print TEST
