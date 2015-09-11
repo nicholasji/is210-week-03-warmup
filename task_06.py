@@ -12,6 +12,6 @@ WORDS = FHANDLER.read()
 
 FHANDLER.close()
 
-TEST = len(WORDS.split())
+WORDCT = len(WORDS.split())
 
-print TEST
+print WORDCT
